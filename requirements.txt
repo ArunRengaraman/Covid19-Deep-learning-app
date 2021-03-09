@@ -3,5 +3,4 @@ pandas
 numpy
 matplotlib
 keras
-os
 cv2
