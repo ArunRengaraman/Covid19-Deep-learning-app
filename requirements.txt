@@ -6,3 +6,4 @@ keras
 PIL==1.1. 7
 os
 cv2
+Pillow
