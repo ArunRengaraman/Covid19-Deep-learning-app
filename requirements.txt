@@ -3,6 +3,6 @@ pandas
 numpy
 matplotlib
 keras
-PIL
+PIL==1.1. 7
 os
 cv2
