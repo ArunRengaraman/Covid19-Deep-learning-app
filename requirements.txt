@@ -3,7 +3,5 @@ pandas
 numpy
 matplotlib
 keras
-PIL
 os
 cv2
-Pillow
