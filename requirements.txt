@@ -3,4 +3,4 @@ pandas
 numpy
 matplotlib
 keras
-cv2
+opencv
