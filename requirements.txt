@@ -3,7 +3,7 @@ pandas
 numpy
 matplotlib
 keras
-PIL==1.1. 7
+PIL
 os
 cv2
 Pillow
