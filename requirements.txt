@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+matplotlib
+keras
+PIL
+os
+cv2
