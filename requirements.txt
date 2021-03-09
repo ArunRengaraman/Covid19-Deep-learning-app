@@ -2,6 +2,6 @@ streamlit
 pandas
 numpy
 matplotlib
-keras==2.4.3
+keras
 opencv-python
-tensorflow==2.3.1
+tensorflow
