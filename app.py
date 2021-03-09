@@ -9,7 +9,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import os
-import keras
 from keras.preprocessing.image import ImageDataGenerator,img_to_array
 from keras.models import load_model
 import app1
