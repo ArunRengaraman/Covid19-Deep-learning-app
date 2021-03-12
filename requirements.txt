@@ -4,4 +4,4 @@ numpy
 matplotlib
 keras
 opencv-python
-tensorflow==1.14
+tensorflow==2.2
