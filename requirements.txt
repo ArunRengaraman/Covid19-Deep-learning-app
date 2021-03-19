@@ -1,8 +1,8 @@
 streamlit
 pandas
 numpy
-matplotlib==3.2.2
+
 keras
-opencv==4.4.0
+
 tensorflow
 PIL 
