@@ -3,5 +3,5 @@ pandas
 numpy
 matplotlib
 keras
-opencv-python
+opencv
 tensorflow
