@@ -1,8 +1,8 @@
 streamlit
 pandas
 numpy
-
+opencv    
 keras
-
+matplotlib
 tensorflow
 PIL 
