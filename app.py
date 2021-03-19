@@ -7,7 +7,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib as plt
+from matplotlib import pyplot as plt
+#import matplotlib.pyplot as plt
 import os
 from keras.preprocessing.image import ImageDataGenerator,img_to_array
 from keras.models import load_model
