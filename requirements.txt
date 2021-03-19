@@ -1,7 +1,6 @@
 streamlit
 pandas
 numpy
-matplotlib
 keras
 opencv==3.1
 tensorflow
