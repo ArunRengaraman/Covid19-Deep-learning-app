@@ -8,6 +8,6 @@ requests==2.20.0
 fastapi==0.63.0
 uvicorn==0.11.8
 Pillow==8.0.1
-opencv_python_headless==4.5.1.48
+opencv-python-headless
 joblib==0.17.0
 Pillow==8.1.0
