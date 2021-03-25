@@ -105,7 +105,7 @@ def app():
         st.image(image_rootpath+'efficientnet_train_vs_test.png')
         st.image(image_rootpath+'efficientnet_train_vs_test_loss.png')
         
-    clf=load_model(model_list[clf_model]+'.h5')   
+    clf=load_model(image_rootpath+model_list[clf_model]+'.h5')   
     image_file = st.file_uploader("Upload image", type=['jpeg', 'png', 'jpg', 'webp'])
     
     if st.button("Process"):
