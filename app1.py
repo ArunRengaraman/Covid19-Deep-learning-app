@@ -22,7 +22,7 @@ class_dict = {0:'COVID19',
               2:'PNEUMONIA'}
 
 model_list={"VGG-16":'vgg16',"VGG-19":'vgg19',"DenseNet":'densenet',"Resnet50":"resnet50","Inception":"inception","NasNet":'nasnet',"EfficientNet":'efficientnet'}
-
+model_rootpath='models/'
 image_rootpath='Images/'
 def app():
     st.title("Covid-19 prediction using different Deep learning pretrained models")
@@ -105,7 +105,7 @@ def app():
         st.image(image_rootpath+'efficientnet_train_vs_test.png')
         st.image(image_rootpath+'efficientnet_train_vs_test_loss.png')
         
-    clf=load_model(model_list[clf_model]+'.h5')   
+    clf=load_model(model_rootpath+model_list[clf_model]+'.h5')   
     image_file = st.file_uploader("Upload image", type=['jpeg', 'png', 'jpg', 'webp'])
     
     if st.button("Process"):
